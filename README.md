@@ -7,4 +7,4 @@ CSS3
 
 JavaScript
 
-<a href = "https://jacc178.github.io/Etch-a-Sketch_JS/">Demo</a>
+<a href = "https://jacc178.github.io/EtchSketch_JS/">Demo</a>
