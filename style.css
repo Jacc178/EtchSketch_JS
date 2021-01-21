@@ -1,0 +1,65 @@
+:root {
+    --colNum: 16;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #CCCCFF;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 1%;
+}
+
+main {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#buttonDiv {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+    height: 80vh;
+    justify-content: space-between;
+}
+
+#selectDiv {
+    background-color: #05a0a0;
+    padding: 5px;
+    border: solid 1px #000;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.buttons {
+    background-color: #05a0a0;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+.buttons:active {
+    background-color: #43ad7d;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(var(--colNum), auto);
+    background-color: #FFFFFF;
+    width: 80vh;
+    min-height: 80vh;
+  
+}
+
+.gridSquare {
+    border: solid 1px #000;
+}

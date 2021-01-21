@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Click on the grid to toggle the brush.</h2>
+    <main>
+        <div id = "buttonDiv">
+            <button id = "clear" class = "buttons">Clear Grid</button>
+            <button id = "size" class = "buttons">Change Grid Size</button>
+            <button id = "grey" class = "buttons">Greyscale</button>
+            <button id = "random" class = "buttons">Random</button>
+            <div id = "selectDiv">
+                Select Color: <input type = "color" id = "select" value = "#ff0000">
+            </div>    
+            <button id = "eraser" class = "buttons">Eraser</button>
+        </div>
+
+        <div id="grid">
+
+        </div>
+    </main>
+</body>
+
+<script src="script.js"></script>
+
+</html>
