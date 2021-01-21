@@ -6,3 +6,5 @@ HTML5
 CSS3
 
 JavaScript
+
+<a href = "https://jacc178.github.io/Etch-a-Sketch_JS/">Demo</a>
